@@ -1,7 +1,17 @@
 package com.aemaething.vwse.dsl.fluent;
 
+/**
+ * Starts the app.
+ *
+ * @author Achim Gosse
+ */
 public class Main {
 
+    /**
+     * Entry point of cli execution.
+     *
+     * @param args cli arguments - not needed
+     */
     public static void main(String[] args) {
         Dialog d = Dialog
                 .create()
@@ -14,5 +24,4 @@ public class Main {
 
         System.out.println(d);
     }
-
 }

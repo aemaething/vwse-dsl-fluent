@@ -13,3 +13,5 @@ The following tasks are executable:
    Starts the Main (cli) class
 * `mvn test`  
     Starts the 'testsuite'   
+* `mvn javadoc:javadoc`  
+   Creates the javadoc files `.../target/site/apidocs/index.html`
