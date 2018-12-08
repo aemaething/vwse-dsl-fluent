@@ -15,3 +15,8 @@ The following tasks are executable:
     Starts the 'testsuite'   
 * `mvn javadoc:javadoc`  
    Creates the javadoc files `.../target/site/apidocs/index.html`
+   
+Also possible, but out of the box:
+* `mvn clean`
+* `mvn compile`   
+* `mvn validate`
